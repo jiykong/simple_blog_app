@@ -2,23 +2,25 @@ import * as React from 'react';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Typography, Toolbar, Divider } from "@mui/material";
+
+
 /*
-## Top Header Component that will contain the Side Bar Button and the profile info
+## Footer Component that will contain the access to contact us page
 */
-export default function TopHeader(props) {
+export default function Footer(props) {
 
     const headerStyle = {
         backgroundColor: '#699CFE',
         minHeight: "63px",
         maxHeight: "10%",
         display: 'flex',
-        
+
     }
     const titleStyle = {
         color: 'white',
-        padding:'0 20px 0 0',
+        padding: '0 20px 0 0',
         display: 'inherit',
-        minWidth: '8.3%',
+        minWidth: '7%',
         fontSize: "145%"
     }
     const menuIconStyle = {
