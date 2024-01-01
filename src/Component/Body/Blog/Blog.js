@@ -8,7 +8,7 @@ export default function Blog() {
 
     return (
         <div>
-            My Story
+            My Story is REAL
         </div>
     );
 }
