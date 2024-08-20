@@ -2,4 +2,4 @@
 
 Simple blog app to help add progress to my work.
 
-Language: React  
+Language: Javascript/React Framework  
