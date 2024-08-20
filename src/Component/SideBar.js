@@ -66,14 +66,14 @@ export default function SideBar(props) {
                         <ListItem>
                             <Link to="/blog" style={LinkStyle}><SpeakerNotesIcon style={IconStyle}></SpeakerNotesIcon> My Story</Link>
                         </ListItem>
-                        <Divider orientation="horizontal" variant="middle" style={{ backgroundColor: '#d8dce4' }} flexItem />
+                        {/* <Divider orientation="horizontal" variant="middle" style={{ backgroundColor: '#d8dce4' }} flexItem />
                         <ListItem>
                             <Link to="/tasks" style={LinkStyle}><AssignmentIcon style={IconStyle}></AssignmentIcon> Todo List</Link>
                         </ListItem>
                         <Divider orientation="horizontal" variant="middle" style={{ backgroundColor: '#d8dce4' }} flexItem />
                         <ListItem>
                             <Link to="/recipes" style={LinkStyle}><RestaurantMenuIcon style={IconStyle}></RestaurantMenuIcon> Wifes Recipes</Link>
-                        </ListItem>
+                        </ListItem> */}
                     </List>
                 </Drawer>
             </ThemeProvider>

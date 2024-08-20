@@ -37,7 +37,7 @@ function App() {
         <SideBar open={side_bar.left}></SideBar>
         <div>
           <Routes>
-            <Route index element={<Home />} />
+            <Route index element={<Blog />} />
             <Route path="blog" element={<Blog />} />
             <Route path="tasks" element={<TodoList />} />
             <Route path="recipes" element={<Recipes />} />
