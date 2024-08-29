@@ -39,6 +39,7 @@ function App() {
           <Routes>
             <Route index element={<Blog />} />
             <Route path="blog" element={<Blog />} />
+            <Route path="health" element={<Blog />} />
             <Route path="tasks" element={<TodoList />} />
             <Route path="recipes" element={<Recipes />} />
             <Route path="*" element={<Error />} />
