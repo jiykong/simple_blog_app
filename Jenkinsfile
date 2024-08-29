@@ -35,4 +35,8 @@ pipeline {
             }
         }
     }
+    
+    tools {
+        nodejs "nodejs"
+    }
 }
